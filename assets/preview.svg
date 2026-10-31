@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="800" viewBox="0 0 1280 800" role="img" aria-label="Pulse Toolkit terminal preview">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#120c0b"/>
+      <stop offset="1" stop-color="#24120d"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fb7185"/>
+      <stop offset="1" stop-color="#f97316"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="800" fill="url(#bg)"/>
+  <rect x="48" y="48" width="1184" height="704" rx="22" fill="#160f0d" stroke="#54261c"/>
+  <rect x="48" y="48" width="1184" height="64" rx="22" fill="#1d1310"/>
+  <rect x="48" y="90" width="1184" height="22" fill="#1d1310"/>
+  <circle cx="88" cy="80" r="7" fill="#fb7185"/>
+  <text x="112" y="87" fill="#fff7ed" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700">Pulse Toolkit</text>
+  <text x="1160" y="87" fill="#a07862" font-family="Consolas, monospace" font-size="14" text-anchor="end">v1.0.0</text>
+
+  <rect x="72" y="136" width="520" height="592" rx="16" fill="#0f0a09" stroke="#3a1c15"/>
+  <text x="96" y="170" fill="#fdba74" font-family="Consolas, monospace" font-size="13">PS C:\Tools\Pulse&gt; .\pulse.ps1</text>
+  <g font-family="Consolas, monospace" font-size="14" fill="#d8c1b4">
+    <text x="96" y="208">PULSE TOOLKIT 1.0.0</text>
+    <text x="96" y="240" fill="#fb7185">[1] Clean temporary files</text>
+    <text x="96" y="272" fill="#fdba74">[2] High performance power plan</text>
+    <text x="96" y="304" fill="#fdba74">[3] Network refresh</text>
+    <text x="96" y="336" fill="#fdba74">[4] System report</text>
+    <text x="96" y="368" fill="#fdba74">[5] Set game priority</text>
+    <text x="96" y="400" fill="#a07862">[Q] Quit</text>
+    <text x="96" y="448" fill="#fff7ed">Select an option: 4</text>
+    <text x="96" y="488" fill="#fb7185">System report</text>
+    <text x="96" y="520">CPU     AMD Ryzen 7 7800X3D</text>
+    <text x="96" y="552">RAM     32 GB DDR5</text>
+    <text x="96" y="584">GPU     NVIDIA GeForce RTX 4070</text>
+    <text x="96" y="616">Disk    C: 412 GB free / 1 TB</text>
+    <text x="96" y="648">Display 1920x1080 @ 240 Hz</text>
+    <text x="96" y="688" fill="#22c55e">Report complete. Nothing was changed.</text>
+  </g>
+
+  <rect x="616" y="136" width="592" height="250" rx="16" fill="#0f0a09" stroke="#3a1c15"/>
+  <text x="644" y="174" fill="#fdba74" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="2">SAFETY MODEL</text>
+  <text x="644" y="212" fill="#fff7ed" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="700">Changes are small and reversible.</text>
+  <text x="644" y="242" fill="#a07862" font-family="Segoe UI, Arial, sans-serif" font-size="14">No registry debloat. No service stripping.</text>
+  <text x="644" y="266" fill="#a07862" font-family="Segoe UI, Arial, sans-serif" font-size="14">No "ultimate optimizer" snake oil.</text>
+  <text x="644" y="290" fill="#a07862" font-family="Segoe UI, Arial, sans-serif" font-size="14">Each script supports -WhatIf where it matters.</text>
+  <rect x="644" y="318" width="180" height="40" rx="10" fill="url(#accent)"/>
+  <text x="734" y="344" fill="#150b09" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="middle">Read the docs</text>
+
+  <rect x="616" y="410" width="592" height="318" rx="16" fill="#0f0a09" stroke="#3a1c15"/>
+  <text x="644" y="448" fill="#fdba74" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="2">WHAT IT DOES</text>
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="15" fill="#d8c1b4">
+    <text x="644" y="486">Clean temporary files and old logs.</text>
+    <text x="644" y="518">Switch to the High performance power plan.</text>
+    <text x="644" y="550">Flush DNS and reset the TCP autotuning state.</text>
+    <text x="644" y="582">Print a readable CPU / RAM / GPU / disk report.</text>
+    <text x="644" y="614">Raise a chosen game process priority.</text>
+    <text x="644" y="646">Restore notes for every change.</text>
+  </g>
+  <rect x="644" y="678" width="536" height="1" fill="#3a1c15"/>
+  <text x="644" y="708" fill="#a07862" font-family="Consolas, monospace" font-size="13">source only / PowerShell 5.1+ / Windows 10 &amp; 11</text>
+</svg>

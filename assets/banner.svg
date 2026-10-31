@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-label="Pulse Toolkit - Windows gaming toolkit">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#100b0a"/>
+      <stop offset="0.6" stop-color="#1b0f0d"/>
+      <stop offset="1" stop-color="#2a140e"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fb7185"/>
+      <stop offset="1" stop-color="#f97316"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#fb7185" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#fb7185" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1280" height="320" rx="24" fill="url(#bg)"/>
+  <circle cx="1080" cy="64" r="250" fill="url(#glow)"/>
+  <circle cx="180" cy="284" r="180" fill="url(#glow)" opacity="0.35"/>
+
+  <g opacity="0.14" stroke="#fb7185" stroke-width="1">
+    <path d="M0 80h1280M0 160h1280M0 240h1280"/>
+    <path d="M160 0v320M480 0v320M800 0v320M1120 0v320"/>
+  </g>
+
+  <g transform="translate(64 64)">
+    <rect width="88" height="88" rx="24" fill="url(#accent)"/>
+    <path d="M12 46h16l8-20 12 40 8-20h20" fill="none" stroke="#150b09" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <text x="180" y="136" fill="#fff7ed" font-family="Segoe UI, Arial, sans-serif" font-size="82" font-weight="700" letter-spacing="10">PULSE</text>
+  <text x="184" y="178" fill="#fdba74" font-family="Segoe UI, Arial, sans-serif" font-size="22" letter-spacing="4">WINDOWS GAMING TOOLKIT</text>
+
+  <rect x="184" y="206" width="180" height="4" rx="2" fill="url(#accent)"/>
+  <text x="184" y="248" fill="#a07862" font-family="Consolas, monospace" font-size="18">clean / optimize / monitor / restore</text>
+</svg>

